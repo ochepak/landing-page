@@ -1,0 +1,34 @@
+{
+  "name": "landing_page",
+  "description": "InventorAcademy task 2",
+  "main": "index.js",
+  "authors": [
+    "Oleh Chepak"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "overrides": {
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    },
+    "owl.carousel": {
+      "main": [
+        "./dist/owl.carousel.min.js",
+        "./dist/assets/owl.carousel.min.css"
+      ]
+    }
+  },
+  "dependencies": {
+    "jQuery": "^3.3.1",
+    "owl.carousel": "^2.3.4"
+  }
+}

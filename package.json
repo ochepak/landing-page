@@ -1,0 +1,26 @@
+{
+  "name": "landing_page",
+  "version": "1.0.0",
+  "description": "InventorAcademy task 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oleh Chepak",
+  "license": "ISC",
+  "dependencies": {
+    "bower": "^1.8.4",
+    "browser-sync": "^2.2.3",
+    "gulp": "latest",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "latest",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^5.0.0",
+    "imagemin-pngquant": "^5.1.0",
+    "main-bower-files": "^2.13.1",
+    "rimraf": "^2.6.2"
+  }
+}

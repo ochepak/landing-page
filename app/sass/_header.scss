@@ -1,0 +1,118 @@
+.header{
+    padding-top: 23px;
+    padding-bottom: 65px;
+    background: url('../img/header/bg.png') 50% 0% no-repeat;
+    color: #fff;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+.nav-menu {
+    display: flex;
+    &__item {
+        width: 140px;
+        text-align: center;
+    }
+    &__link {
+        font-size: 18px;
+        color: #e1e1e1;
+        &_active{
+            color: #fff;
+        }
+    }
+}
+.nav-social {
+    display: flex;
+    align-items: center;
+    &__item {
+        width: 50px;
+        text-align: center;
+        &:nth-child(2){
+            margin: 0px 13px;
+        }
+    }
+    &__link {
+        line-height: 50px;
+    }
+    &__img {
+        vertical-align: middle;
+    }
+}
+.header-main{
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+}
+.header-info{
+    width: 45%;
+    &__title{
+        font-size: 60px;
+        font-weight: 700;
+    }
+    &__subtitle{
+        padding: 30px 0px;
+        width: 80%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    &__link{
+        display: inline-block;
+        width: 158px;
+        line-height: 52px;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        border-radius: 5px;
+        &_orange{
+            background-color: #fc6a42;
+        }
+        &_blue{
+            background-color: #4466c9;
+        }
+        &:last-child{
+            margin-left: 10px;
+        }
+    }
+}
+.header-images-wrapper{
+    position: relative;
+    text-align: center;
+    flex-grow: 1;
+}
+.header-img{
+    &_pos-absolute{
+        position: absolute;
+        &:nth-child(2){
+            left: 50px;
+            bottom: 200px;
+        }
+        &:nth-child(3){
+            top: 70px;
+            right: 90px;
+        }
+        &:nth-child(4){
+            bottom: 220px;
+            right: 30px;
+        }
+        &:nth-child(5){
+            bottom: -20px;
+            right: 90px;
+        }
+    }
+}
+.to-bottom{
+    margin: 35px auto 0 auto;
+    display: block;
+    width: 49px;
+    line-height: 49px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+}
