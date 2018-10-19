@@ -18,5 +18,58 @@ a {
     margin: 0 auto;
     width: 1170px;
 }
-
+.bg-lines{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+    width: 1170px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-585px);
+    &__item{
+        width: 1px;
+        height: 100%;
+        background: #ededf6;
+    }
+}
+.section{
+    padding: 130px 0px;
+}
+.section-info{
+    text-align: center;
+    &__title{
+        color: #648cff;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &__subtitle{
+        margin-top: 20px;
+        color: #999999;
+        font-size: 18px;
+    }
+}
+.to-top{
+    position: fixed;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(600px);
+    cursor: pointer;
+    width: 50px;
+    line-height: 43px;
+    text-align: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #434769;
+}
 @import 'header';
+
+@import 'features';
+
+@import 'widgets';
+
+@import 'app';
+
+@import 'footer';

@@ -1,0 +1,24 @@
+.footer{
+    padding: 85px 0px 60px 0px;
+    background-color: #353854;
+    &-logo{
+        &_red{
+            color: #fc6a42;
+        }
+        &_blue{
+            color: #648cff;
+        }
+    }
+    &-hline{
+        margin-top: 60px;
+        margin-bottom: 50px;
+        height: 1px;
+        width: 100%;
+        background: #434769;
+    }
+    &-copyright{
+        text-align: right;
+        color: #565b87;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,24 @@
+.features-list{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+.feature-item{
+    display: flex;
+    &__img-wrapper{
+        flex: 0 0 120px;
+        text-align: center;
+    }
+    &__title{
+        padding-bottom: 10px;
+        color: #353854;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    &__subtitle{
+        color: #aeaeae;
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
