@@ -1,0 +1,33 @@
+.reviews{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.review{
+    margin-top: 115px;
+    margin-bottom: 50px;
+    width: 545px;
+    color: #353854;
+    font-size: 24px;
+    line-height: 36px;
+    .quote{
+        margin-bottom: -25px;
+        margin-left: -7px;
+        display: block;
+        font-size: 142px;
+        line-height: 40px;
+        color: #648cff;
+        &_right{
+            margin-top: -45px;
+            transform: rotate(180deg);
+        }
+    }
+    &__author{
+        margin-top: 5px;
+        display: block;
+        font-size: 18px;
+    }
+    &:first-child{
+        margin-bottom: 80px;
+    }
+}

@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background: linear-gradient(to right, #fff 174px, #ededf6 1px) center;
+    background-size: 175px 100%;
+}
 img {
     max-width: 100%;
     max-height: 100%;
@@ -17,22 +21,6 @@ a {
 .container {
     margin: 0 auto;
     width: 1170px;
-}
-.bg-lines{
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    z-index: -1;
-    width: 1170px;
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-585px);
-    &__item{
-        width: 1px;
-        height: 100%;
-        background: #ededf6;
-    }
 }
 .section{
     padding: 130px 0px;
@@ -69,6 +57,10 @@ a {
 @import 'features';
 
 @import 'widgets';
+
+@import 'screenshots';
+
+@import 'reviews';
 
 @import 'app';
 

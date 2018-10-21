@@ -10,18 +10,6 @@
 </head>
 
 <body>
-    <div class="bg-lines">
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-        <div class="bg-lines__item"></div>
-    </div>
     <header class="header">
         <div class="container">
             <nav class="nav">
@@ -131,28 +119,98 @@
                     <p class="section-info__subtitle">Drag and Drop</p>
                 </div>
             </div>
-            <!-- <div class="widgets-slider">
+            <div class="widgets-slider">
+                <p id="ppprev">lol</p>
                 <div class="owl-carousel widgets-slider__container">
-                    <div class="widget">
-                        <img src="img/widgets/image_left.png" alt="" class="widget__img">
+                    <ul>
+                        <li class="widget">
+                            <img src="img/widgets/image_left.png" alt="" class="widget__img">
+                        </li>
+                        <li class="widget">
+                            <img src="img/widgets/image_center.png" alt="" class="widget__img">
+                        </li>
+                        <li class="widget">
+                            <img src="img/widgets/image_right.png" alt="" class="widget__img">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section section_screenshot">
+            <div class="container">
+                <div class="section-info">
+                    <h2 class="section-info__title">Screenshots</h2>
+                    <p class="section-info__subtitle">The brightest images</p>
+                </div>
+                <div class="screenshot">
+                    <div class="screenshot__img-wrapper">
+                        <img src="img/screenshots/cloudy.png" alt="" class="screenshot__img">
                     </div>
-                    <div class="widget">
-                        <img src="img/widgets/image_center.png" alt="" class="widget__img">
-                    </div>
-                    <div class="widget">
-                        <img src="img/widgets/image_right.png" alt="" class="widget__img">
-                    </div>
-                    <div class="widget">
-                        <img src="img/widgets/image_left.png" alt="" class="widget__img">
-                    </div>
-                    <div class="widget">
-                        <img src="img/widgets/image_center.png" alt="" class="widget__img">
-                    </div>
-                    <div class="widget">
-                        <img src="img/widgets/image_right.png" alt="" class="widget__img">
+                    <div class="screenshot-info">
+                        <div class="screenshot-info__img-wrapper">
+                            <img src="img/screenshots/clouds.png" alt="cloudy" class="screenshot-info__img">
+                        </div>
+                        <h3 class="screenshot-info__title">When the clouds</h3>
+                        <p class="screenshot-info__descr">Variable information on the air humidity, the feeling of the
+                            weather, and the ability to share this with your friends</p>
+                        <img src="img/screenshots/icons_1.png" alt="" class="screenshot-info__icons">
                     </div>
                 </div>
-            </div> -->
+                <div class="screenshot">
+                    <div class="screenshot-info">
+                        <div class="screenshot-info__img-wrapper">
+                            <img src="img/screenshots/sun.png" alt="sunny" class="screenshot-info__img">
+                        </div>
+                        <h3 class="screenshot-info__title">When the sun</h3>
+                        <p class="screenshot-info__descr">Sometimes the simplest things are the hardest to find. So we
+                            created a new line for everyday life. Sometimes the simplest</p>
+                        <img src="img/screenshots/icons_1.png" alt="" class="screenshot-info__icons">
+                    </div>
+                    <div class="screenshot__img-wrapper">
+                        <img src="img/screenshots/sunny.png" alt="" class="screenshot__img">
+                    </div>
+                </div>
+                <div class="screenshot">
+                    <div class="screenshot__img-wrapper">
+                        <img src="img/screenshots/rainy.png" alt="" class="screenshot__img">
+                    </div>
+                    <div class="screenshot-info">
+                        <div class="screenshot-info__img-wrapper">
+                            <img src="img/screenshots/rain.png" alt="cloudy" class="screenshot-info__img">
+                        </div>
+                        <h3 class="screenshot-info__title">When the rain</h3>
+                        <p class="screenshot-info__descr">Sometimes the simplest things are the hardest to find. So we
+                            created a new line for everyday life. Sometimes the simplest</p>
+                        <img src="img/screenshots/icons_1.png" alt="" class="screenshot-info__icons">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="section-info">
+                    <h2 class="section-info__title">What people are saying</h2>
+                    <p class="section-info__subtitle">Reviews</p>
+                </div>
+                <div class="reviews">
+                    <div class="review"><span class="quote">“</span>What art offers is space - a certain breathing room
+                        for the spirit.
+                        <span class="review__author">John Updike</span><span class="quote quote_right">“</span>
+                    </div>
+                    <div class="review"><span class="quote">“</span>We do not see nature with our eyes, but with our
+                        understandings and our hearts.
+                        <span class="review__author">William Hazlitt</span><span class="quote quote_right">“</span>
+                    </div>
+                    <div class="review"><span class="quote">“</span>The only courage that matters is the kind that gets
+                        you from one moment to the next.
+                        <span class="review__author">Mignon McLaughlin</span><span class="quote quote_right">“</span>
+                    </div>
+                    <div class="review"><span class="quote">“</span>No man has a good enough memory to be a successful
+                        liar.
+                        <span class="review__author">Abraham Lincoln</span><span class="quote quote_right">“</span>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="section section_app">
             <div class="container">
@@ -219,9 +277,9 @@
     <div class="to-top" id="to-top">
         <img src="img/arrow.png" alt="to top">
     </div>
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.flipster.min.css">
     <script src="js/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.flipster.min.js"></script>
     <script src="js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
 </body>

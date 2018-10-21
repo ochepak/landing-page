@@ -6,14 +6,25 @@ window.onload = () => {
         img.onmousedown = (e) => e.preventDefault();
     });
 
-    document.getElementById('to-top').onclick = () => {
-        document.body.scrollTop = 0; 
-        document.documentElement.scrollTop = 0;
-    }
+    $('#to-top').on('click', (e) => {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+
+    $('.widgets-slider__container').flipster({
+        loop: 1,
+        style: 'carousel',
+        spacing: -0.4,
+        buttons: true,
+        buttonPrev: 'lolol'
+    });
 }
 
 window.onscroll = () => {
     scrollFunction();
+
     function scrollFunction() {
         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
             document.getElementById("to-top").style.display = "block";

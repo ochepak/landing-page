@@ -26,6 +26,9 @@
         &_active{
             color: #fff;
         }
+        &:hover{
+            color: #fff;
+        }
     }
 }
 .nav-social {
@@ -92,19 +95,19 @@
         position: absolute;
         &:nth-child(2){
             left: 50px;
-            bottom: 200px;
+            top: 290px;
         }
         &:nth-child(3){
             top: 70px;
-            right: 90px;
+            left: 480px;
         }
         &:nth-child(4){
-            bottom: 220px;
-            right: 30px;
+            top: 250px;
+            left: 500px;
         }
         &:nth-child(5){
-            bottom: -20px;
-            right: 90px;
+            top: 580px;
+            left: 500px;
         }
     }
 }
