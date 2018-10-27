@@ -12,7 +12,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <nav class="nav">
+            <nav class="nav nav-header">
                 <a href="/" class="logo">FUN WEATHER.</a>
                 <ul class="nav-menu">
                     <li class="nav-menu__item">
@@ -45,6 +45,9 @@
                         </a>
                     </li>
                 </ul>
+                <a href="#" class="nav-icon" id="navIcon">
+                    <i>|||</i>
+                </a>
             </nav>
             <div class="header-main">
                 <div class="header-info">
@@ -60,19 +63,15 @@
                 </div>
                 <div class="header-images-wrapper">
                     <img src="img/header/phone.png" alt="" class="header-img">
-                    <img src="img/header/sunny.png" alt="" class="header-img_pos-absolute">
-                    <img src="img/header/temperature.png" alt="" class="header-img_pos-absolute">
-                    <img src="img/header/london.png" alt="" class="header-img_pos-absolute">
-                    <img src="img/header/rio.png" alt="" class="header-img_pos-absolute">
                 </div>
             </div>
-            <a href="#" class="to-bottom">
+            <a href="#featuresSection" id="toBottom" class="to-bottom">
                 <img src="img/header/arrow.png" alt="to bottom">
             </a>
         </div>
     </header>
     <main>
-        <section class="section">
+        <section id="featuresSection" class="section">
             <div class="container">
                 <div class="section-info">
                     <h2 class="section-info__title">Perfect Features</h2>
@@ -118,21 +117,20 @@
                     <h2 class="section-info__title">Simple widgets</h2>
                     <p class="section-info__subtitle">Drag and Drop</p>
                 </div>
-            </div>
-            <div class="widgets-slider">
-                <p id="ppprev">lol</p>
-                <div class="owl-carousel widgets-slider__container">
-                    <ul>
-                        <li class="widget">
-                            <img src="img/widgets/image_left.png" alt="" class="widget__img">
-                        </li>
-                        <li class="widget">
-                            <img src="img/widgets/image_center.png" alt="" class="widget__img">
-                        </li>
-                        <li class="widget">
-                            <img src="img/widgets/image_right.png" alt="" class="widget__img">
-                        </li>
-                    </ul>
+                <div class="widgets-slider">
+                    <div class="widgets-slider__container">
+                        <ul>
+                            <li class="widget">
+                                <img src="img/widgets/image_left.png" alt="" class="widget__img">
+                            </li>
+                            <li class="widget">
+                                <img src="img/widgets/image_center.png" alt="" class="widget__img">
+                            </li>
+                            <li class="widget">
+                                <img src="img/widgets/image_right.png" alt="" class="widget__img">
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -272,11 +270,11 @@
             </nav>
             <div class="footer-hline"></div>
             <div class="footer-copyright">&copy; 2016 All rights reserved. Weather App Theme by Gravpix</div>
+            <div class="to-top" id="to-top">
+                <img src="img/arrow.png" alt="to top">
+            </div>
         </div>
     </footer>
-    <div class="to-top" id="to-top">
-        <img src="img/arrow.png" alt="to top">
-    </div>
     <link rel="stylesheet" href="css/jquery.flipster.min.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.flipster.min.js"></script>

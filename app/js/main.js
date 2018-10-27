@@ -1,5 +1,10 @@
 window.onload = () => {
 
+    $('#navIcon').on('click', e => {
+        e.preventDefault();
+        $('.nav-header').toggleClass('nav-responsive');
+    });
+
     let images = document.querySelectorAll('img');
 
     images.forEach(img => {
@@ -12,6 +17,14 @@ window.onload = () => {
             scrollTop: 0
         }, 700);
     });
+
+    $('#toBottom').on('click', (e) => {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: $('#featuresSection').offset().top
+        }, 200);
+    });
+
 
     $('.widgets-slider__container').flipster({
         loop: 1,

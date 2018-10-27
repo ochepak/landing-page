@@ -8,44 +8,47 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.logo{
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-}
-.nav-menu {
-    display: flex;
-    &__item {
-        width: 140px;
-        text-align: center;
+    .logo{
+        font-size: 24px;
+        font-weight: bold;
+        color: #fff;
     }
-    &__link {
-        font-size: 18px;
-        color: #e1e1e1;
-        &_active{
-            color: #fff;
+    .nav-menu {
+        display: flex;
+        &__item {
+            width: 140px;
+            text-align: center;
         }
-        &:hover{
-            color: #fff;
-        }
-    }
-}
-.nav-social {
-    display: flex;
-    align-items: center;
-    &__item {
-        width: 50px;
-        text-align: center;
-        &:nth-child(2){
-            margin: 0px 13px;
+        &__link {
+            font-size: 18px;
+            color: #e1e1e1;
+            &_active{
+                color: #fff;
+            }
+            &:hover{
+                color: #fff;
+            }
         }
     }
-    &__link {
-        line-height: 50px;
+    .nav-social {
+        display: flex;
+        align-items: center;
+        &__item {
+            width: 50px;
+            text-align: center;
+            &:nth-child(2){
+                margin: 0px 13px;
+            }
+        }
+        &__link {
+            line-height: 50px;
+        }
+        &__img {
+            vertical-align: middle;
+        }
     }
-    &__img {
-        vertical-align: middle;
+    .nav-icon{
+        display: none;
     }
 }
 .header-main{
@@ -88,9 +91,9 @@
 .header-images-wrapper{
     position: relative;
     text-align: center;
-    flex-grow: 1;
+    width: 640px;
 }
-.header-img{
+/* .header-img{
     &_pos-absolute{
         position: absolute;
         &:nth-child(2){
@@ -99,18 +102,18 @@
         }
         &:nth-child(3){
             top: 70px;
-            left: 480px;
+            left: 460px;
         }
         &:nth-child(4){
             top: 250px;
-            left: 500px;
+            left: 480px;
         }
         &:nth-child(5){
             top: 580px;
-            left: 500px;
+            left: 480px;
         }
     }
-}
+} */
 .to-bottom{
     margin: 35px auto 0 auto;
     display: block;

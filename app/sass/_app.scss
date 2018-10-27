@@ -7,11 +7,14 @@
     position: relative;
     .section__img{
         position: absolute;
+        z-index: 1;
         bottom: 0px;
         left: 50%;
     }
 }
 .app-download{
+    position: relative;
+    z-index: 2;
     color: #fff;
     &__title{
         font-size: 36px;

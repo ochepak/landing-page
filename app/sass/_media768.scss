@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px){
+    .section{
+        padding: 70px 0px;
+    }
+    .container{
+        width: 540px;
+    }
+    .header-main{
+        flex-direction: column;
+        align-items: flex-start;
+        .header-info{
+            width: 80%;
+        }
+        .header-images-wrapper{
+            display: none;
+        }
+    }
+    .screenshot{
+        margin-top: 70px;
+        flex-wrap: wrap;
+        &__img-wrapper{
+            margin: 0 auto !important;
+            order: 1;
+            width: 60%;
+        }
+    }
+}

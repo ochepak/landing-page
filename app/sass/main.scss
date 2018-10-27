@@ -21,6 +21,7 @@ a {
 .container {
     margin: 0 auto;
     width: 1170px;
+    position: relative;
 }
 .section{
     padding: 130px 0px;
@@ -42,8 +43,8 @@ a {
 .to-top{
     position: fixed;
     bottom: 0;
-    right: 50%;
-    transform: translateX(600px);
+    right: 10%;
+    z-index: 33;
     cursor: pointer;
     width: 50px;
     line-height: 43px;
@@ -65,3 +66,13 @@ a {
 @import 'app';
 
 @import 'footer';
+
+@import 'media1190';
+
+@import 'media992';
+
+@import 'media768';
+
+@import 'media576';
+
+@import 'media500';

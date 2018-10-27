@@ -5,6 +5,7 @@
 }
 .feature-item{
     display: flex;
+    max-width: 380px;
     &__img-wrapper{
         flex: 0 0 105px;
         text-align: center;
