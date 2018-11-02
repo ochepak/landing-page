@@ -1,7 +1,4 @@
 @media screen and (max-width: 992px){
-    .container{
-        width: 720px;
-    }
     .header{
         background-size: cover;
     }
@@ -47,10 +44,11 @@
         }
     }
     .features-list{
+        margin-top: 90px;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .feature-item:not(:first-child){
+    .feature-item{
         margin-top: 40px;
     }
     .footer{

@@ -30,8 +30,7 @@ window.onload = () => {
         loop: 1,
         style: 'carousel',
         spacing: -0.4,
-        buttons: true,
-        buttonPrev: 'lolol'
+        buttons: true
     });
 }
 

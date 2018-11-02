@@ -49,7 +49,7 @@ var config = {
     server: {
         baseDir: "./dist"
     },
-    tunnel: false,
+    tunnel: true,
     host: 'localhost',
     port: 8080,
     logPrefix: "OCHEPAK"

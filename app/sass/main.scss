@@ -19,8 +19,11 @@ a {
     text-decoration: none;
 }
 .container {
+    padding: 0 15px;
     margin: 0 auto;
-    width: 1170px;
+    max-width: 1170px;
+    width: 100%;
+    min-width: 290px;
     position: relative;
 }
 .section{
